@@ -1,0 +1,21 @@
+{
+  "name": "resolutiondppx",
+  "version": "0.0.1",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "description": "Get the pixel-based resolution of the host device.",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iambumblehead/resolutiondppx.git"
+  },
+  "keywords": [
+    "resolution",
+    "screen",
+    "pixels",
+    "dots",
+    "dppx",
+    "devicePixelRatio",
+    "retina"
+  ]
+}

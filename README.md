@@ -13,6 +13,8 @@ console.log("device resolution is " + resolutiondppx);
 // device resolution is 1
 ```
 
+[0]: http://www.bumblehead.com                            "bumblehead"
+
 ---------------------------------------------------------
 #### <a id="more-information"></a>More Information:
 

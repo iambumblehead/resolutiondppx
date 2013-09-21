@@ -1,5 +1,5 @@
 // Filename: resolutiondppx.js  
-// Timestamp: 2013.09.21-14:47:19 (last modified)  
+// Timestamp: 2013.09.21-15:03:57 (last modified)  
 // Author(s): Bumblehead (www.bumblehead.com)  
 
 var resolutiondppx = ((typeof module === 'object') ? module : {}).exports = {
@@ -21,7 +21,7 @@ var resolutiondppx = ((typeof module === 'object') ? module : {}).exports = {
       }
     }
 
-    if (typeof r === 'number' && r >= 1) {
+    if (typeof r === 'number' && r > 1) {
       while (r % 25) r--;    
     }
 

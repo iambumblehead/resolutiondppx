@@ -16,21 +16,22 @@ console.log("device resolution is " + resolutiondppx);
 ---------------------------------------------------------
 #### <a id="more-information"></a>More Information:
 
-device resolution is obtained differently depending upon the browser (webkit or non-webkit). 
+device resolution is obtained differently depending upon browser (webkit or non-webkit). 
 
-Webkit supports pixel-based resolutions (dots per pixel, dppx, dots/pixel). The W3C [added standards][3] for pixel-based resolution styles and newer browsers [support][4] them but not the same way webkit does. 
+Webkit supports pixel-based resolutions (dots per pixel, dppx, dots/pixel). The W3C [added standards][3] for pixel resolution styles. New browsers [support][4] them (not the way webkit does). 
 
-Webkit script environments provide easy access to device resolution:
+Webkit environments provide easy access to device resolution:
 
 ```javascript
+// webkit
 resolution = window.devicePixelRatio;
+// spidermonkey
+window.matchMedia('(min-resolution: 2dppx)').matches
 ```
 
-Other browsers don't provide this. They [do][1] [support][2] `matchmedia` and it may be used to obtain a similar value.
+Example `devicePixelRatio` values are `1`, `2` and `2.25`. [This document][5] has examples using these values.
 
-Example `devicePixelRatio` values are `1`, `2` and `2.25`. These values are used in the examples in [this document][5].
-
-This script is understood easily by [viewing its source][6].
+Better understand this script by [viewing its source][6].
 
 
 [1]: https://developer.mozilla.org/en-US/docs/Web/API/window.matchMedia

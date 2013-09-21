@@ -64,9 +64,9 @@ resolutiondppx may be downloaded directly or installed through `npm`.
 
 ---------------------------------------------------------
 
-#### <a id=usage">USAGE:
+#### <a id="usage">USAGE:
 
-If you coerce `resolutiondppx` into a string value, you'll get the device resolution.
+Coerce `resolutiondppx` to a string value.
 
   ```javascript
   console.log("device resolution is " + resolutiondppx);
